@@ -52,8 +52,8 @@ export default function Home() {
       <nav className="home-nav">
         <div className="home-nav-inner">
           <div className="home-brand">
-            <div className="home-brand-icon">⚡</div>
-            <span>Zenith</span>
+            <div className="home-brand-icon"></div>
+            <span>Zyntra</span>
           </div>
           <div className="home-nav-items">
             {user && <a href="/dashboard" className="home-nav-link">Dashboard</a>}
